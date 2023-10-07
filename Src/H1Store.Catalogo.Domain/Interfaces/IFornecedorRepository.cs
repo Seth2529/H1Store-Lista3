@@ -10,7 +10,7 @@ namespace H1Store.Catalogo.Domain.Interfaces
     public interface IFornecedorRepository
     {
         List<Fornecedor> ObterTodos();
-        Categoria ObterPorCodigo(int codigo);
+        Fornecedor ObterPorCodigo(int codigo);
         void Adicionar(Fornecedor fornecedor);
         void Atualizar(Fornecedor fornecedor);
         void Remover(int codigo);

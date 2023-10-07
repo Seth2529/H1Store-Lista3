@@ -9,7 +9,7 @@ namespace H1Store.Catalogo.Domain.Interfaces
 {
     public interface ICategoriaRepository
     {
-        List<Categoria> ObterTodos();
+        List<Categoria> ObterTodas();
         Categoria ObterPorCodigo(int codigo);
         void Adicionar(Categoria categoria);
         void Atualizar(Categoria categoria);
